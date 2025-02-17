@@ -52,6 +52,33 @@ interface User{
 // Type Aliases
 
 
-type sankhya = number | string
+type sankhya = number | string | null
+
+// | -> Union
+// 
 
 let ab: sankhya
+ab = 12
+ab = "Akshat"
+ab = null
+
+type user = {
+    name: string,
+    email: string
+}
+type admin = user &{
+    getDetails(user: string): void
+}
+function handleAdmin(a: admin){
+    a.getDetails
+}
+// ==========================
+// diff btw type interface and Type Aliases
+
+// type abcd = number
+// type abcd = string // showing error
+
+
+// 2. 
+// Type Aliases ka kaam h type define krna
+// type interface ka kaam ha shape define krna

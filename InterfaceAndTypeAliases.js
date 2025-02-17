@@ -6,4 +6,19 @@ function getDataOfUser(obj) {
 getDataOfUser({ name: "Akshat", email: "a@123.com", password: "123" });
 function abcd(obj) {
 }
+// | -> Union
+// 
 var ab;
+ab = 12;
+ab = "Akshat";
+ab = null;
+function handleAdmin(a) {
+    a.getDetails;
+}
+// ==========================
+// diff btw type interface and Type Aliases
+// type abcd = number
+// type abcd = string // showing error
+// 2. 
+// Type Aliases ka kaam h type define krna
+// type interface ka kaam ha shape define krna

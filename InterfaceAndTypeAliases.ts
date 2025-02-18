@@ -12,7 +12,7 @@ function getDataOfUser(obj: User) {
 }
 
 // Call the function with an object that matches the User interface
-getDataOfUser({ name: "Akshat", email: "a@123.com", password: "123" }); 
+getDataOfUser({ name: "Akshat", email: "a@123.com", password: "123", phone: 1234567890 }); 
 
 
 // ====================================================

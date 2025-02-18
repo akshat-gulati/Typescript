@@ -3,7 +3,7 @@ function getDataOfUser(obj) {
     console.log("Name: ".concat(obj.name, ", Email: ").concat(obj.email));
 }
 // Call the function with an object that matches the User interface
-getDataOfUser({ name: "Akshat", email: "a@123.com", password: "123" });
+getDataOfUser({ name: "Akshat", email: "a@123.com", password: "123", phone: 1234567890 });
 function abcd(obj) {
 }
 // | -> Union
